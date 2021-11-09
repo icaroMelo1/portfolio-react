@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(176, 234, 240);
+}
+
+button {
+  background-color: #63E9F2;
+  border: 2.5px solid black;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.body {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.midbody {
+  align-content: center;
+  align-items:  baseline;
+  border: none;
+  box-shadow: 25px 30px 10px -15px #0EA4FB;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 60%;
+  max-width: 70%;
+  min-height: 40%;
+  min-width: 40%;
+}
+
+.insidemidbody {
+  box-shadow: -25px -30px 10px -15px #0EA4FB;
+}
+
+.changebutton {
+  background: none;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+.back-btt {
+  transform: rotate(180deg)
+}
+
+.back-btt, .front-btt {
+  width: 80px;
+  height: 80px;
+}
